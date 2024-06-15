@@ -1,5 +1,17 @@
-.quotes {
-
-    font-family: "../Assets/Fonts/KHGummi";
-
+@font-face {
+    font-family: KHGummi;
+    src: url(../Assets/Fonts/KHGummi.otf);
 }
+
+quote {
+    font-family: KHGummi;
+}
+
+.quote-wrapper {
+    border: solid black 4px;
+    padding:  50;
+    background: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+

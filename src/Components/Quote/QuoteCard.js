@@ -2,10 +2,16 @@ import React from 'react';
 import './quote.css'
 
 export default function 
-QuoteCard(props) {
-    const { name, key } = props;
+QuoteCard({ quote, game, name, key}) {
+   
 
-    return ( <div><h2>{name}</h2>
-    <h4>{key}</h4></div>
+    return ( <div class="quote-wrapper">
+        <quote>{quote}</quote>
+        <h2>{name}</h2>
+        
+        <h3>{game}</h3>
+        
+        <div></div>
+    </div>
      );
 }
