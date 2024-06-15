@@ -1,17 +1,29 @@
 import React from 'react';
 import './quote.css'
+import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 
-export default function 
-QuoteCard({ quote, game, name, key}) {
-   
 
-    return ( <div class="quote-wrapper">
-        <quote>{quote}</quote>
-        <h2>{name}</h2>
-        
-        <h3>{game}</h3>
-        
-        <div></div>
-    </div>
-     );
+export default function QuoteAndAuthor(props) {
+
+    const { quote, generateRandomQuote, whatGameAlert } = props;
+    
+    return (
+        <div className="card" >
+            <div className="card-body">
+                <p className="card-text">{quote.quote}</p>
+                <h5 className="card-title">- {quote.author}</h5>
+                <Button
+                className='btn-primary'
+                onClick={() => generateRandomQuote(quote) }
+                type="submit">WEPA!
+                </Button>
+                <Button
+                variant='dark'
+                onClick={() => { whatGameAlert(quote)}}
+                type="submit">Source
+                </Button>
+            </div>
+        </div>
+    )
 }
