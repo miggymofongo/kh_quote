@@ -1,3 +1,12 @@
+WEPA! I'm Miguel and I'm deploying React web applications on github pages now! Check out this quote generator that
+cycles through an array of quotes from the Kingdom Hearts video game series. 
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
