@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kh_quote/static/css/main.66266a4a.css",
+    "main.js": "/kh_quote/static/js/main.75d58ab6.js",
+    "static/js/453.204fac4a.chunk.js": "/kh_quote/static/js/453.204fac4a.chunk.js",
+    "static/media/pr_map.png": "/kh_quote/static/media/pr_map.2cf016352d8256cc17ce.png",
+    "static/media/KHGummi.otf": "/kh_quote/static/media/KHGummi.6bace90943d83394788e.otf",
+    "static/media/gfc-logo-12@2x_transp.png": "/kh_quote/static/media/gfc-logo-12@2x_transp.035b584d6a241c7ec0a3.png",
+    "static/media/nostr_logo.png": "/kh_quote/static/media/nostr_logo.a01902db31288a2e6ca8.png",
+    "index.html": "/kh_quote/index.html",
+    "main.66266a4a.css.map": "/kh_quote/static/css/main.66266a4a.css.map",
+    "main.75d58ab6.js.map": "/kh_quote/static/js/main.75d58ab6.js.map",
+    "453.204fac4a.chunk.js.map": "/kh_quote/static/js/453.204fac4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66266a4a.css",
+    "static/js/main.75d58ab6.js"
+  ]
+}
