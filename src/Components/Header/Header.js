@@ -12,8 +12,8 @@ export default function Header() {
           <Navbar.Brand href="https://miguelalmodo.com">Miguel's Asteroid</Navbar.Brand>
           <Nav className="me-auto">
             
-            <Nav.Link href="#https://library.miguelalmodo.com/">Bookshelf</Nav.Link>
-            <Nav.Link href="#https://miguelalmodo.com/blog">Blog</Nav.Link>
+            <Nav.Link href="https://library.miguelalmodo.com/">Bookshelf</Nav.Link>
+            <Nav.Link href="https://miguelalmodo.com/blog">Blog</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
