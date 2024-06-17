@@ -58,7 +58,7 @@ export default class App extends Component {
     return (
       
       <div>
-<Header /><div className='App'>
+<Header /><div className='wrapper'>
         <h1 className="text-center">Random Kingdom Hearts Quote Generator</h1>
         <p> Click the WEPA! button to cycle through an array of different 
           character quotes from the Kingdom Hearts video game series!

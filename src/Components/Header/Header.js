@@ -13,7 +13,7 @@ export default function Header() {
           <Nav className="me-auto">
             
             <Nav.Link href="https://library.miguelalmodo.com/">Bookshelf</Nav.Link>
-            <Nav.Link href="https://miguelalmodo.com/blog">Blog</Nav.Link>
+            <Nav.Link href="https://nostree.me/npub1ajt9gp0prf4xrp4j07j9rghlcyukahncs0fw5ywr977jccued9nqrcc0cs">Social Media</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
