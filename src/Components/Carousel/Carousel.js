@@ -1,13 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
-import exampleCarouselImage from './gfc-logo-12@2x_transp.png';
+import firstImg from './gfc-logo-12@2x_transp.png';
 import secondImg from './nostr_logo.png'
 import thirdImg from './pr_map.png'
 
-function UncontrolledExample() {
+function slideShow() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img src={exampleCarouselImage} alt="first slide" className="d-block w-100" />
+        <img src={firstImg} alt="first slide" className="d-block w-100" />
         <Carousel.Caption>
           <h3>Programming</h3>
           <p>Regular engagement in international
@@ -37,4 +37,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default slideShow;
