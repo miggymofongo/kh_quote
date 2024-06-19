@@ -4,7 +4,9 @@ function Footer(){
 
     return(
 
-        <footer>
+        
+<Footer>
+
 
 <Container fluid>
     <Row className="bg-primary text-white">
@@ -28,7 +30,7 @@ function Footer(){
     </Row>
 </Container>
 
-        </footer>
+        </Footer>
     )
 }
 

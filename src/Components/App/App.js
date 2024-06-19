@@ -1,6 +1,6 @@
 import './App.css';
 import React, { Component } from 'react';
-import Header from '../Header/Header';
+import CollapsibleExample from '../Header/Header';
 import quotes from '../Quote/quotes';
 import QuoteCard from '../Quote/QuoteCard';
 import UncontrolledExample from '../Carousel/Carousel';
@@ -58,7 +58,7 @@ export default class App extends Component {
     return (
       
       <div>
-<Header /><div className='wrapper'>
+<CollapsibleExample /><div className='wrapper'>
         <h1 className="text-center">Random Kingdom Hearts Quote Generator</h1>
         <p> Click the WEPA! button to cycle through an array of different 
           character quotes from the Kingdom Hearts video game series!

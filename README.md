@@ -1,6 +1,11 @@
 WEPA! I'm Miguel and I'm deploying React web applications on github pages now! Check out this quote generator that
 cycles through an array of quotes from the Kingdom Hearts video game series. 
 
+To do list 
+
+quote query?
+update quotes from khdatabase.com
+
 
 
 
