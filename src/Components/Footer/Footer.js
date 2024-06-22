@@ -17,7 +17,7 @@ function Footer(){
          <Nav className="flex-column fs-5">
             Useful Links
             <NavLink href="https://library.miguelalmodo.com" className="text-dark">Bookshelf</NavLink>
-            <NavLink href="https://miguelalmodo.com/blog" className="text-dark">Blog</NavLink>
+            <NavLink href="https://nostree.me/npub1ajt9gp0prf4xrp4j07j9rghlcyukahncs0fw5ywr977jccued9nqrcc0cs" className="text-dark">Social Media</NavLink>
             <NavLink href="" className="">Main Page</NavLink>
             </Nav></Col>
          <Col>
